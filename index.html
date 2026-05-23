@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Dota.Clan.I@nK</title>
+    <style>
+        body {
+            margin: 0;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Segoe UI', sans-serif;
+            
+            /* Создаем красный размытый фон */
+            background-color: #050505;
+            background-image: radial-gradient(circle at center, #330000 0%, #050505 70%);
+        }
+        
+        .container {
+            background-color: rgba(15, 15, 15, 0.85); /* Полупрозрачный фон блока */
+            padding: 40px;
+            border-radius: 12px;
+            text-align: center;
+            border: 1px solid #ff0000;
+            box-shadow: 0 0 30px rgba(255, 0, 0, 0.2);
+            max-width: 380px;
+        }
+        
+        .logo {
+            width: 140px;
+            height: 140px;
+            object-fit: contain;
+            margin-bottom: 25px;
+        }
+        
+        h1 { 
+            color: #ff0000; 
+            margin: 10px 0; 
+            text-transform: uppercase;
+        }
+        
+        .description { 
+            font-size: 1em; 
+            margin-bottom: 35px; 
+            color: #cccccc; 
+        }
+        
+        .btn {
+            display: inline-block;
+            padding: 16px 35px;
+            background-color: #ff0000;
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: bold;
+            text-transform: uppercase;
+            transition: 0.3s;
+        }
+        
+        .btn:hover { 
+            background-color: #cc0000; 
+            box-shadow: 0 0 20px #ff0000;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <img src="logo.png" alt="Logo" class="logo" onerror="this.style.display='none'">
+        
+        <h1>Dota.Clan.I@nK</h1>
+        <p class="description">
+            Добро пожаловать в элитное сообщество!<br>
+            Вступай к нам: обсуждения, хайлайты, игры.
+        </p>
+        
+        <a href="https://t.me/+fphLT5PtHE9iZmUy" class="btn">Присоединиться</a>
+    </div>
+
+</body>
+</html>
